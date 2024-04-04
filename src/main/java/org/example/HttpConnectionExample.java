@@ -1,13 +1,15 @@
 package org.example;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/**
+ * Esta clase nos va a permitir la conexion con el proxy
+ */
 public class HttpConnectionExample {
 
     private static final String USER_AGENT = "Mozilla/5.0";
