@@ -139,7 +139,7 @@ Ademas para aclarar en el caso de la busqueda binaria si la lista no se encuentr
 
 ## Despliegue en AWS
 
-* [Despliegue](https://youtu.be/rsujYsaycY0)
+* [Despliegue](https://youtu.be/GEWri45_XdA)
 
 ## Autor
 

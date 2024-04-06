@@ -9,7 +9,8 @@ import static spark.Spark.*;
 import org.json.JSONObject;
 public class Proxy{
 
-    private static final List<String> urls = Arrays.asList("http://54.224.206.182:4567/", "http://54.91.255.119:4567/");
+    // Para correrlo en aws se pone las ips para cada instancia de Mathservice que para el ejemplo se utilizaron 54.224.206.182:4567, 54.91.255.119:4567
+    private static final List<String> urls = Arrays.asList("http://localhost:4567/", "http://localhost:4567/");
     private static int cont = 0;
 
     public static void main(String... args){
