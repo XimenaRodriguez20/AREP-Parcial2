@@ -8,7 +8,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * Esta clase nos va a permitir la conexion con el proxy
+ * Esta clase nos va a permitir la conexion con el proxy y el MathServices
  */
 public class HttpConnectionExample {
 

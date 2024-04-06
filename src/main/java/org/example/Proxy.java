@@ -9,9 +9,7 @@ import static spark.Spark.*;
 import org.json.JSONObject;
 public class Proxy{
 
-    private static final List<String> urls = Arrays.asList(
-            "http://localhost:4567/",
-            "http://localhost:4567/");
+    private static final List<String> urls = Arrays.asList("http://54.224.206.182:4567/", "http://54.91.255.119:4567/");
     private static int cont = 0;
 
     public static void main(String... args){
