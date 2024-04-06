@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Form Example</title>
+    <title>Busquedas</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -24,17 +24,17 @@
             document.getElementById("getrespmsg").innerHTML =
             this.responseText;
         }
-        xhttp.open("GET", "/linearsearch?list="+lista1+"&value="+valor1);
+        xhttp.open("GET", "/client/linearsearch?list="+lista1+"&value="+valor1);
         xhttp.send();
     }
 </script>
 
 <h1>Busqueda binaria</h1>
 <form action="/hello">
-    <label for="lista">Digite la lista:</label><br>
-    <input type="text" id="lista2" name="lista2" value="23,2,101,20,17"><br><br>
+    <label for="lista">Digite la lista en orden de menor a mayor:</label><br>
+    <input type="text" id="lista2" name="lista2" value="1,2,3,4,5"><br><br>
     <label for="valor">Digite el valor a buscar:</label><br>
-    <input type="text" id="valor2" name="valor2" value="101"><br><br>
+    <input type="text" id="valor2" name="valor2" value="4"><br><br>
     <input type="button" value="Submit" onclick="Msg()">
 </form>
 <div id="msg"></div>
@@ -47,7 +47,7 @@
             document.getElementById("msg").innerHTML =
             this.responseText;
         }
-        xhttp.open("GET", "/binarysearch?list="+lista1+"&value="+valor1);
+        xhttp.open("GET", "/client/binarysearch?list="+lista3+"&value="+valor3);
         xhttp.send();
     }
 </script>
