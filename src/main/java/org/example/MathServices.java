@@ -30,7 +30,7 @@ public class MathServices {
 
 
     /**
-     * Este metodo nos permite hacer la busqueda lineal
+     * Este metodo nos permite hacer la busqueda lineal, es decir recibe una lista de datos no importa si estan ordenados o no, ademas recibe el valor a buscar en caso de que se encuentre este valor retorna el indice en el cual se encuentra este valor en la lista, por el contrario sino encuentra este valor retorna -1
      * @param list es la lista que el usuario nos brinda
      * @param value es el valor que el usuario desea buscar
      * @return el valor del indice o el que esta por defecto sino funciona
@@ -48,7 +48,7 @@ public class MathServices {
     }
 
     /**
-     * Este metodo nos permite hacer la busqueda binaria
+     * Este metodo nos permite hacer la busqueda binaria,  es decir recibe una lista de datos ordenados y el valor a buscar, este metodo es mas eficiente ya que el proceso de busqueda lo hace reduciendo el conjunto a la mitad, en caso de que se encuentre este valor retorna el indice en el cual se encuentra este valor en la lista, por el contrario sino encuentra este valor retorna -1
      * @param list es la lista que el usuario nos brinda
      * @param value es el valor que el usuario desea buscar
      * @return el valor del indice o el que esta por defecto sino funciona
